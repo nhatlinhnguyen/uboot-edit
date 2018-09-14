@@ -184,6 +184,7 @@ static int passwd_abort(uint64_t etime)
  */
 static int __abortboot(int bootdelay)
 {
+	return 0;
 	int abort;
 	uint64_t etime = endtick(bootdelay);
 
