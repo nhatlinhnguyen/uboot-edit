@@ -211,6 +211,7 @@ static int menukey;
 
 static int __abortboot(int bootdelay)
 {
+	return 0;
 	int abort = 0;
 	unsigned long ts;
 
