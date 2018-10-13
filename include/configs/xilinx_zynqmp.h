@@ -91,7 +91,10 @@
 # define CONFIG_GENERIC_MMC
 # define CONFIG_SUPPORT_EMMC_BOOT
 # ifndef CONFIG_ZYNQ_SDHCI_MAX_FREQ
-#  define CONFIG_ZYNQ_SDHCI_MAX_FREQ	200000000
+#  define CONFIG_ZYNQ_SDHCI_MAX_FREQ	1000000 //200000000
+
+//sondc test sdcard clock pin affect.
+
 # endif
 # define CONFIG_ENV_IS_IN_FAT
 # define FAT_ENV_DEVICE_AND_PART	"0:auto"

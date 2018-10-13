@@ -85,7 +85,8 @@
 /* MMC */
 #if defined(CONFIG_ZYNQ_SDHCI)
 # define CONFIG_GENERIC_MMC
-# define CONFIG_ZYNQ_SDHCI_MAX_FREQ	52000000
+# define CONFIG_ZYNQ_SDHCI_MAX_FREQ	1000000 //52000000 
+// sondc1 edited here
 #endif
 
 #ifdef CONFIG_USB_EHCI_ZYNQ
