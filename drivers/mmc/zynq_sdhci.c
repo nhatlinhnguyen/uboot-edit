@@ -204,6 +204,8 @@ static int arasan_sdhci_probe(struct udevice *dev)
 	host->platform_execute_tuning = arasan_sdhci_execute_tuning;
 #endif
 
+	add_sdhci(host, 4000000, 1000000);
+
 	if (priv->pwrseq) {
 		debug("Unsupported mmcpwrseq for %s\n", dev->name);
 		return 0;
