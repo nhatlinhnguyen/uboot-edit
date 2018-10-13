@@ -382,7 +382,7 @@ static int mmc_host_uhs(struct mmc *mmc)
 
 static int sd_send_op_cond(struct mmc *mmc)
 {
-	int timeout = 0;
+	int timeout = 1000;
 	int err;
 	struct mmc_cmd cmd;
 
