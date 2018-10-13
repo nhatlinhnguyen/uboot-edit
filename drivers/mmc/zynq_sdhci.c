@@ -16,6 +16,7 @@
 #include <asm/arch/hardware.h>
 #include <asm/io.h>
 #include <zynqmp_tap_delay.h>
+#include <asm/arch/clk.h>
 #include "mmc_private.h"
 
 #ifndef CONFIG_ZYNQ_SDHCI_MIN_FREQ
